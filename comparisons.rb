@@ -60,21 +60,34 @@ puts number_students <= 21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+# YOU DO: Explain.
+# prints result of: is integer 4 less than integer 9
+# this should print: true
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# assigns an integer value of 3 to variable called books
+# prints result of: is integer value 4 LESS THAN the value assigned to variable books
+    # this should print: false
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# assigns an integer value of 6 to variable called friends
+# assigns an integer value of 2 to variable called siblings
+# prints result of: is value assigned to friends GREATER THAN the value assigned siblings
+    # this should print: true
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+# assigns integer value of 9 to variable called attendees
+# assigns integer value of 8 to variable called meals
+# prints result of: is value assigned attendees NOT EQUAL TO value assigned to meals
+    # this should print: true
 
 
 #-------------------
