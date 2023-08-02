@@ -110,15 +110,23 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
+# this should print: true
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
+# this should print: false
 
 # Determine if the dog loves to play or loves the dog park
+puts loves_to_play || loves_dog_park
+# this should print: true
 
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && age
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: 1, the logical operator 'or' checks if any of the boolean values are true. We are not given any
+#   age condition(s) to determine what is a puppy and what is not. My guess would be this line of code
+#   does not have another boolean for the logical operator to check with, so it just prints value
+#   assigned to the age variable
