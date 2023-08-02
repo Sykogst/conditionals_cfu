@@ -66,5 +66,15 @@ num_quarters >= 2 ? (puts "I have enough money for a gumball") : (puts "I don't 
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
-cups_of_flour = 1
+cups_of_flour = 2
 has_sauce = true
+
+# Pizza can be only be made: if cups_of_flour greater or equal than two AND has_sauce is true
+# if cups_of_flour >= 2 && has_sauce == true
+#   puts "I can make pizza"
+# else
+#   puts "I cannot make pizza"
+# end
+
+#Pizza conditional in one line
+cups_of_flour >= 2 && has_sauce == true ? (puts "I can make pizza") : (puts "I cannot make pizza")
