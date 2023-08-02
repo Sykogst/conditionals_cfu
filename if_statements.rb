@@ -41,12 +41,15 @@ end
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
 
-num_quarters = 3
-if num_quarters >= 2
-  puts "I have enough money for a gumball"
-else
-  puts "I don't have enough money for a gumball"
-end
+num_quarters = 2
+# if num_quarters >= 2
+#   puts "I have enough money for a gumball"
+# else
+#   puts "I don't have enough money for a gumball"
+# end
+
+# Gumball conditional in one line
+num_quarters >= 2 ? (puts "I have enough money for a gumball") : (puts "I don't have enough money for a gumball")
 
 
 #####################
